@@ -1,0 +1,1 @@
+Hello my friends! This is the place where I would like to test my git and Xamarin skills!
