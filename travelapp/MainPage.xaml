@@ -5,8 +5,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" x:Class="travelapp.MainPage">
     <StackLayout VerticalOptions="Center">
-        <Entry/>
-        <Entry/>
-        <Button Text="Log in"/>
+        <Entry Placeholder="Email address"
+               Keyboard="Email"/>
+        <Entry Placeholder="Password"
+               IsPassword="true"/>
+        <Button x:Name="LoginButton"
+                Text="Log in"
+                Clicked="LoginButton_Clicked"/>
     </StackLayout>
 </ContentPage>
