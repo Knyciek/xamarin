@@ -30,7 +30,7 @@ namespace travelapp
             }
             else
             {
-
+                Navigation.PushAsync(new HomePage());
             }
         }
     }
