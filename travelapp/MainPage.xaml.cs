@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace travelapp
@@ -20,7 +21,17 @@ namespace travelapp
 
         void LoginButton_Clicked(object sender, System.EventArgs e)
         {
-           
+            bool IsEmailEmpty = string.IsNullOrEmpty(emailEntry.Text);
+            bool IsPasswordEmpty = string.IsNullOrEmpty(passwordEntry.Text);
+
+            if(IsEmailEmpty || IsPasswordEmpty)
+            {
+
+            }
+            else
+            {
+
+            }
         }
     }
 }

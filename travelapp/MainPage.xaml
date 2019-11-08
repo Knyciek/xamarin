@@ -6,9 +6,11 @@
              mc:Ignorable="d" x:Class="travelapp.MainPage">
     <StackLayout VerticalOptions="Center"
                  Margin="20,0">
-        <Entry Placeholder="Email address"
+        <Entry x:Name="emailEntry"
+               Placeholder="Email address"
                Keyboard="Email"/>
-        <Entry Placeholder="Password"
+        <Entry x:Name="passwordEntry"
+               Placeholder="Password"
                IsPassword="true"/>
         <Button x:Name="LoginButton"
                 Margin="0,50,0,0"
