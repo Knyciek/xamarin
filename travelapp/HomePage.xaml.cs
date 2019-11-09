@@ -11,5 +11,10 @@ namespace travelapp
         {
             InitializeComponent();
         }
+
+        void ToolbarItem_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new NewTravelPage());
+        }
     }
 }
