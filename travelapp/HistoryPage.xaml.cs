@@ -25,5 +25,14 @@ namespace travelapp
             }
 
         }
+
+        void postListView_Selected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            var selectedPost = postListView.SelectedItem as Post;
+            if (selectedPost!=null)
+            {
+                Navigation.PushAsync(new PostDetailPage(selectedPost));
+            }
+        }
     }
 }
