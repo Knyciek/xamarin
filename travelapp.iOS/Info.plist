@@ -36,5 +36,9 @@
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We need the access to your location to enhance the app experience!</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We need the access the Calendar to be able to access permissions</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>We need the access the bluetooth to be able to access permissions</string>
 </dict>
 </plist>
